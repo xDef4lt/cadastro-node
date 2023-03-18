@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    resize: none;
+    border: none;
+    text-decoration: none;
+}
+input:focus, textarea:focus, button:focus {
+    outline: 0;
+}

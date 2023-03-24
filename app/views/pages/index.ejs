@@ -11,72 +11,72 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <script charset="UTF-8" src="/assets/js/index.js"></script>
 
-    
+
     <title>Inscrever-se - Campeonato de Xadrez</title>
 </head>
 <body>
-    <div class="content-container">
-        <main>
-            <fieldset class="form-container">
-                <form action="#">
-                    <div class="form-grid">
-                        <label for="input-email">
-                            Email
-                        </label>
-                        <label for="input-name">
-                            Nome
-                        </label>
-                        <input type="email" name="email" class="input-field" id="input-email" placeholder="Informe seu email">
-                        <input type="text" name="name" class="input-field" id="input-name" placeholder="Informe seu nome">
-                    </div>
-                    <div class="form-grid">
-                        <label for="input-password">
-                            Senha
-                        </label>
-                        <label for="input-confirm-password">
-                            Confirmação de senha
-                        </label>
-                        <input type="password" name="password" class="input-field" id="input-password" placeholder="Informe sua senha">
-                        <input type="password" name="password" class="input-field" id="input-confirm-password" placeholder="Confirme a senha">
-                    </div>
-                    <div class="input-container">
-                        <label for="input-address">
-                            Endereço
-                        </label>
-                        <input type="text" name="address" class="input-field" id="input-address" placeholder="Informe seu endereço">
-                    </div>
-                    <div class="input-container">
-                        <label for="input-msg">
-                            Mensagem
-                        </label>
-                        <textarea name="msg" id="input-msg" class="input-field msg-field" cols="30" rows="10" placeholder="Conte-nos mais sobre você"></textarea>
-                    </div>
-                    <div class="btn-container">
-                        <button type="button" class="form-btn" id="form-btn">Enviar</button>
-                    </div>
-                </form>
-            </fieldset>
-        </main>
+<div class="content-container">
+    <main>
+        <fieldset class="form-container">
+            <form method="post" action="/html">
+                <div class="form-grid">
+                    <label for="input-email">
+                        Email
+                    </label>
+                    <label for="input-name">
+                        Nome
+                    </label>
+                    <input type="email" name="email" class="input-field" id="input-email" placeholder="Informe seu email">
+                    <input type="text" name="name" class="input-field" id="input-name" placeholder="Informe seu nome">
+                </div>
+                <div class="form-grid">
+                    <label for="input-password">
+                        Senha
+                    </label>
+                    <label for="input-confirm-password">
+                        Confirmação de senha
+                    </label>
+                    <input type="password" name="password" class="input-field" id="input-password" placeholder="Informe sua senha">
+                    <input type="password" name="confirm" class="input-field" id="input-confirm-password" placeholder="Confirme a senha">
+                </div>
+                <div class="input-container">
+                    <label for="input-address">
+                        Endereço
+                    </label>
+                    <input type="text" name="address" class="input-field" id="input-address" placeholder="Informe seu endereço">
+                </div>
+                <div class="input-container">
+                    <label for="input-msg">
+                        Mensagem
+                    </label>
+                    <textarea name="message" id="input-msg" class="input-field msg-field" cols="30" rows="10" placeholder="Conte-nos mais sobre você"></textarea>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="form-btn" id="form-btn">Enviar</button>
+                </div>
+            </form>
+        </fieldset>
+    </main>
 
-        <aside class="contacts">
-            <div class="div-flex">
-                <div class="text-container">
-                    <h1 class="top-heading">Entre em Contato</h1>
-                    <p>random123<wbr>@gmail.com</p>
-                </div>
-                <div class="text-container">
-                    <h2 class="heading">Telefone</h2>
-                    <p>1 (234) 234-567</p>
-                </div>
-                <div class="text-container">
-                    <h2 class="heading">Local</h2>
-                    <p>
-                        121 Rock Street, 21 Avenue, New York,
-                        NY 92103-9000
-                    </p>
-                </div>
+    <aside class="contacts">
+        <div class="div-flex">
+            <div class="text-container">
+                <h1 class="top-heading">Entre em Contato</h1>
+                <p>random123<wbr>@gmail.com</p>
             </div>
-        </aside>
-    </div>
+            <div class="text-container">
+                <h2 class="heading">Telefone</h2>
+                <p>1 (234) 234-567</p>
+            </div>
+            <div class="text-container">
+                <h2 class="heading">Local</h2>
+                <p>
+                    121 Rock Street, 21 Avenue, New York,
+                    NY 92103-9000
+                </p>
+            </div>
+        </div>
+    </aside>
+</div>
 </body>
 </html>
